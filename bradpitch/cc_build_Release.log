@@ -1,0 +1,29 @@
+--------------------------  bradpitch.pjt - Release  --------------------------
+[biquad.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "biquad.c"
+
+[brad_3bandeq.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "brad_3bandeq.c"
+
+[brad_delay.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "brad_delay.c"
+
+[brad_dist.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "brad_dist.c"
+
+[brad_moddelay.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "brad_moddelay.c"
+
+[brad_pitch_instrumental.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "brad_pitch_instrumental.c"
+
+[brad_reverb.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "brad_reverb.c"
+
+[brad_tremolo.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "brad_tremolo.c"
+
+[main.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "main.c"
+"main.c", line 267: warning: variable "super" was set but never used
+
+[qmath.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "qmath.c"
+
+[wt.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -o3 -fr"C:/CCStudio_v3.1/MyProjects/bradpitch/Release" -i"C:/CCStudio_v3.1/C6000/dsk6416/include" -i"C:/CCStudio_v3.1/c6400/dsplib/include" -d"CHIP_6416" -mv6400 --mem_model:data=far -@"Release.lkf" "wt.c"
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Release.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

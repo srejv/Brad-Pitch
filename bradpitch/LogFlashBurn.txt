@@ -1,0 +1,7 @@
+## 05/30/13 17:37:06
+Attempt to create Code Composer Studio...
+CCS created OK.
+Req. FBTC Load.
+Timed out Loading FBTC.
+Either I cannot load FBTC, or the FBTC is not compatible with this version of FlashBurn.
+Verify that the FBTC file is compatible with target and this version of FlashBurn.

@@ -1,0 +1,94 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="c:\CCStudio_v3.1\myprojects\bradpitch\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\support\c6416dskinit.c"
+Source="biquad.c"
+Source="boot.asm"
+Source="brad_3bandeq.c"
+Source="brad_delay.c"
+Source="brad_dist.c"
+Source="brad_dynamics.h"
+Source="brad_moddelay.c"
+Source="brad_pitch_cent_table.inc"
+Source="brad_pitch_instrumental.c"
+Source="brad_reverb.c"
+Source="brad_sawtooth.table"
+Source="brad_sin.table"
+Source="brad_tremolo.c"
+Source="bradpitch6416.cdb"
+Source="main.c"
+Source="qmath.c"
+Source="twiddle.coef"
+Source="wt.c"
+Source="link.cmd"
+
+[Generated Files]
+Source="bradpitch6416cfg.cmd"
+Source="bradpitch6416cfg.s62"
+Source="bradpitch6416cfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -i"C:\CCStudio_v3.1\C6000\dsk6416\include" -i"C:\CCStudio_v3.1\c6400\dsplib\include" -d"CHIP_6416" -mv6400 --mem_model:data=far
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -i"C:\CCStudio_v3.1\C6000\dsk6416\include" -i"C:\CCStudio_v3.1\c6400\dsplib\include" -d"CHIP_6416" -mv6400 --mem_model:data=far
+
+["Linker" Settings: "Debug"]
+Options=-c -heap0x1000 -m".\Debug\bradpitch.map" -o".\Debug\bradpitch.out" -w -x -i"c:\CCStudio_v3.1\C6000\dsk6416\lib" -i"C:\CCStudio_v3.1\c6400\dsplib\lib" -l"dsk6416bsl.lib" -l"dsp64x.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\bradpitch.map" -o".\Release\bradpitch.out" -w -x -i"c:\CCStudio_v3.1\C6000\dsk6416\lib" -l"dsk6416bsl.lib"
+
+["brad_dynamics.h" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["brad_dynamics.h" Settings: "Release"]
+ExcludeFromBuild=true
+
+["brad_pitch_cent_table.inc" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["brad_pitch_cent_table.inc" Settings: "Release"]
+ExcludeFromBuild=true
+
+["brad_sawtooth.table" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["brad_sawtooth.table" Settings: "Release"]
+ExcludeFromBuild=true
+
+["brad_sin.table" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["brad_sin.table" Settings: "Release"]
+ExcludeFromBuild=true
+
+["twiddle.coef" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["twiddle.coef" Settings: "Release"]
+ExcludeFromBuild=true
+
+["bradpitch6416cfg.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["bradpitch6416cfg.cmd" Settings: "Release"]
+LinkOrder=1
+
+["link.cmd" Settings: "Debug"]
+LinkOrder=2
+
+["link.cmd" Settings: "Release"]
+LinkOrder=2
+

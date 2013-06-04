@@ -1,0 +1,3 @@
+## 05/30/13 16:58:39
+Attempt to create Code Composer Studio...
+CCS created OK.
